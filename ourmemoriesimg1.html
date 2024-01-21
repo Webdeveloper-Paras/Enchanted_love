@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff7b7b;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        .image-container {
+            position: relative;
+            overflow: hidden;
+            height: 100%;
+        }
+
+        .image-caption {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(255, 123, 123, 0.7);
+            padding: 8px;
+            border-radius: 5px;
+            font-style: italic;
+            font-size: 0.8em;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+    <title>Romantic Images</title>
+</head>
+
+<body>
+    <header>
+        <h1>Romantic Images Gallery</h1>
+    </header>
+
+    <main>
+        <div class="image-container">
+            <img src="tree.jpg" alt="Romantic Image 1">
+            <div class="image-caption">Captivating Love</div>
+        </div>
+        <div class="image-container">
+            <img src="tree.jpg" alt="Romantic Image 2">
+            <div class="image-caption">Eternal Bliss</div>
+        </div>
+        <div class="image-container">
+            <img src="tree.jpg" alt="Romantic Image 3">
+            <div class="image-caption">Whispers of Romance</div>
+        </div>
+        <div class="image-container">
+            <img src="tree.jpg" alt="Romantic Image 4">
+            <div class="image-caption">Enchanted Love</div>
+        </div>
+        <div class="image-container">
+            <img src="tree.jpg" alt="Romantic Image 5">
+            <div class="image-caption">Dance of Hearts</div>
+        </div>
+        <div class="image-container">
+            <img src="tree.jpg" alt="Romantic Image 6">
+            <div class="image-caption">Sunset Serenade</div>
+        </div>
+        <div class="image-container">
+            <img src="tree.jpg" alt="Romantic Image 7">
+            <div class="image-caption">Moonlit Romance</div>
+        </div>
+        <div class="image-container">
+            <img src="tree.jpg" alt="Romantic Image 8">
+            <div class="image-caption">Love in Bloom</div>
+        </div>
+        <div class="image-container">
+            <img src="tree.jpg" alt="Romantic Image 9">
+            <div class="image-caption">Stars Aligned</div>
+        </div>
+        <div class="image-container">
+            <img src="tree.jpg" alt="Romantic Image 10">
+            <div class="image-caption">Gentle Embrace</div>
+        </div>
+    </main>
+</body>
+
+</html>
